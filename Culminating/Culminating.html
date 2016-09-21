@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<head>
+<title>Defender</title>
+
+
+<!-- Jquery Code Stuff to make our Javascript have all the code libraries etc that it needs to run -->
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script> 	<!-- Thanks Google -->
+
+  <script src="Culminating.js" type="text/javascript"></script>	<!--This is where our code comes in, we write it in CodeTemplate.js-->
+
+<!-- You can change the name of of your code file to be more specific and/or awesome, just be sure to update the name here. 
+			"CodeTemplate.js" ------- > "AwesomeGame.js"-->
+
+			
+			
+<!--Sources for everything I can remember to put that isn't created by me
+
+
+	http://blog.ssis.edu.vn/101817/2012/04/19/596/ the alien pic
+	http://www.clker.com/clipart-satellite.html    the satellite pic
+	http://bigbackground.com/space/earth-space-background.html the space background
+	https://www.youtube.com/watch?v=jLqlBAFkZDY	the background music
+	
+	-->
+	
+	<!--   Stuff in my game
+	
+	The idea behind my game is that you are a gun operator that is responsible to defend communication sattelites, so that people on earth won't be in the dark during the alien invasion
+	
+	Certain features: 
+	
+		Algorithms (selection sort and recursion) is implemented in the scores menu, the recursion is used in the drawing of the table and the algorithm sorts the time survived values	
+		2d arrays are used in my background, to give a coordinated grid feel to my game 
+		Object classification is used with the making of the aliens and satellites. 
+		The credit menu is sort of a joke, because obviously I didn't make the pictures for my icons or background, and the credit is given here
+		I have a arcade like song to give the game an arcade, retro feel.
+		To personalize the game, I let the user input their player name, which is displayed at the start and end of the game
+		I have an accurate timer, to the nearest second, made by dividing a value by a certain number based on paint refresh rate
+		Difficulty can always be changed by changing the amount of aliens or the fact
+		each satellite has its own health value, and will stay alive until this health runs out 
+		
+	-->
+	
+
+</head>
+
+<body align='center' bgcolor='#000000'>		
+
+
+  <canvas id="canvas" width="640" height="700"></canvas>
+
+<!-- The Canvas is new to HTML and is currently on track to replace Flash for games etc, Flash is officially a dying language/platform
+The canvas element is where our programs will operate, it is the place where we can draw things and be in all ways awesome.
+
+Since you can have multiple canvas elements, each canvas must have a name (you will put this name into your Javascript code), I have named my 
+canvas element with the most imaginative name possible, the name is simply "canvas", I could have called it "canvas1" or "canvasGame" but because
+I'm only using a single canvas, a cheap-o name will do.
+
+
+-->
+
+
+
+</body>
+</html>
